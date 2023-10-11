@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/pf.jpg" type="image/x-icon">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Personal portfolio website</title>
+</head>
+
+<body>
+    <!-- Website Layout -->
+    <div class="website_container">
+
+        <!-- Global Menu -->
+        <div id="global_menu_button_container">
+            <p class="site_title">Personal portfolio website</p>
+            <i class="fa fa-bars" id="global_menu_button"></i>
+        </div>
+
+        <ul id="global_menu_items">
+            <div>
+                <i class="fa fa-close" id="global_menu_close_button"></i>
+                <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="About.html"><i class="fas fa-pen-nib"></i> About</a></li>
+                <li><a href="skills.html"><i class="fas fa-cog"></i> skills</a></li>
+                
+            </div>
+        </ul>
+
+        <!--x Global Menu x-->
+
+        <!-- sidebar -->
+        <div class="sidebar_container">
+            <!-- Sidebar Image -->
+            <div class="image">
+                <img src="img/pf.jpg" alt="Vishwa K">
+                <div class="right_image_box"></div>
+                <div class="left_image_box"></div>
+            </div>
+
+            <!-- sidebar Content -->
+            <div class="sidebar_content">
+                <!-- Long name can be applied so easily -->
+                <h1>Vishwa K</h1>
+                <p> Student </p>
+                <!-- Social Medias -->
+                <div class="social_media">
+                    <a href="https://instagram.com/vishwa_rock07?igshid=NzZlODBkYWE4Ng=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Sidebar Buttom Menu -->
+            <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
+                <i class="fa fa-bars" id="sidebar_menu_icon"></i>
+            </div>
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar_navigation" id="sidebar_navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="skills.html">skills</a></li>
+               
+
+            </ul>
+
+        </div>
+        <!-- content -->
+        <div class="content_container">
+            <!-- Resume Page -->
+            <div class="resume_page">
+                <h2 class="title">My <span>Resume</span></h2>
+                <hr class="line">
+                <div class="resume_container">
+                    <!-- Education Container -->
+                    <div class="right_resume">
+                        <h2 class="resume_title"><i class="fas fa-book-open"></i> Education</h2>
+                        <div class="resume_box">
+                            <span class="resume_date">2021-Present</span>
+                            <p class="resume_box_title">Information Science and Engineering</p>
+                            <p class="resume_conpany">New Horizon College of engineering</p>
+                        </div>
+
+                        <div class="resume_box">
+                            <span class="resume_date">2019-2021</span>
+                            <p class="resume_box_title">PUC</p>
+                            <p class="resume_conpany">Christ Academy</p>
+
+                        </div>
+
+                        <div class="resume_box">
+                            <span class="resume_date">2018-2019</span>
+                            <p class="resume_box_title">10th (CBSE)</p>
+                            <p class="resume_conpany">SFS School</p>
+                        </div>
+                    </div>
+                    <div class="left_resume">
+                        <h2 class="resume_title"><i class="fas fa-globe"></i> My Hobbies</h2>
+                        <div class="resume_box">
+                            <p class="resume_box_title">Cricket </p>
+                        </div>
+
+                        <div class="resume_box">
+                            <p class="resume_box_title">
+                                Gaming</p>
+                        </div>
+
+                        <div class="resume_box">
+                            <p class="resume_box_title">
+                                Exploring
+                                </p>
+                        </div>
+                        <div class="resume_box">
+                            <p class="resume_box_title">Art work </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h2 class="title">My <span>Skills</span></h2>
+                <hr class="line">
+                <!-- Skill Container -->
+                <div class="resume_container">
+                    <div class="right_resume">
+                        <h2 class="resume_title"><i class="fas fa-code"></i> Coding Languages</h2>
+                        <div class="skill_box">
+                            <h2 class="skill_title">HTML</h2>
+                            <div class="skill_line_container">
+                                <div class="skill_line" style="width: 60%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill_box">
+                            <h2 class="skill_title">Python</h2>
+                            <div class="skill_line_container">
+                                <div class="skill_line" style="width: 50%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill_box">
+                            <h2 class="skill_title">CSS</h2>
+                            <div class="skill_line_container">
+                                <div class="skill_line" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
